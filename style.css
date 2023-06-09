@@ -1,0 +1,23 @@
+.container{
+    border: 1.5px solid black;
+    /* display: inline; */
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 118px;
+    padding: 18px;
+    width: 50%;
+    background-color: rgba(39, 36, 219, 0.508);
+}
+#time{
+    font-size: 27px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: mistyrose;
+}
+.dropdowns{
+    font-size: 21px;
+    font-family: monospace;
+    padding: 6px;
+    background-color: cornflowerblue;
+    border-radius: 26px;
+}
