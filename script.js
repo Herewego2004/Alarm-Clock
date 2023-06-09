@@ -54,7 +54,7 @@ setbutton.addEventListener("click", () => {
     ) {
         alert("Invalid Time set.");
     } else {
-        let settime = `${hour.value}:${minute.value}:${second.value}`;
+        let settime = `Current Time: ${hour.value}:${minute.value}:${second.value}`;
         setInterval(() => {
             if (timing.innerText == settime) {
                 alarmSound.play();
