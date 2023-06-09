@@ -54,6 +54,7 @@ setbutton.addEventListener("click", () => {
     ) {
         alert("Invalid Time set.");
     } else {
+        btn.innerHTML += ` <button type="button" class="btn btn-danger" id="resetalarm" onclick="reset()">Reset Alarm</button>`
         let settime = `Current Time: ${hour.value}:${minute.value}:${second.value}`;
         setInterval(() => {
             if (timing.innerText == settime) {
